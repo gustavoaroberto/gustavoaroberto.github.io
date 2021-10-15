@@ -4,18 +4,7 @@ import { ThemeProvider } from "styled-components";
 import themes, { GlobalStyle } from "../../themes";
 
 export default function RootComponent({ children }) {
-    const [themeNumber, setTheme] = useState(0);
-
-    const onChangeTheme = () => {
-        console.log(themeNumber);
-        if (themeNumber >= themes.length - 1) {
-            setTheme(0);
-        } else {
-            setTheme(themeNumber + 1);
-        }
-
-        localStorage.setItem("gusTheme", themeNumber);
-    };
+    const [themeNumber] = useState(0);
 
     return (
         <ThemeProvider theme={themes[themeNumber]}>
@@ -32,7 +21,6 @@ export default function RootComponent({ children }) {
                     rel="stylesheet"
                 />
             </Helmet>
-            <button onClick={onChangeTheme}>Change theme</button>
             {children}
         </ThemeProvider>
     );
