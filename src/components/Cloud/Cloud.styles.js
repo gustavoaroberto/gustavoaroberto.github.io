@@ -13,7 +13,7 @@ const CloudStyles = styled.div`
     background-color: white;
     border-radius: 50%;
     animation: movingClouds ${(props) => props.time} linear infinite;
-    box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.75);
+    box-shadow: 22px 17px 4px 0px rgba(0, 0, 0, 0.3);
   }
 
   div:nth-child(odd) {

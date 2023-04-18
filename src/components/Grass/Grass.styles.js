@@ -13,7 +13,6 @@ const GrassStyles = styled.div`
     height: 100px;
     background-color: #636363;
     border-radius: 50%;
-    box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.75);
   }
 
   div:nth-child(even) {
