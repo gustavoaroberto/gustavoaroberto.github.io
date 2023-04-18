@@ -16,9 +16,11 @@
     "deploy": "gatsby build && gh-pages -d public -b main"
   },
   "dependencies": {
+    "@tippyjs/react": "^4.2.6",
     "babel-plugin-styled-components": "^2.0.7",
     "gatsby": "^4.19.2",
     "gatsby-plugin-image": "^2.20.0",
+    "gatsby-plugin-manifest": "^4.25.0",
     "gatsby-plugin-sharp": "^4.20.0",
     "gatsby-plugin-sitemap": "^5.20.0",
     "gatsby-plugin-styled-components": "^5.20.0",
@@ -27,7 +29,8 @@
     "nes.css": "^2.3.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
-    "styled-components": "^5.3.5"
+    "styled-components": "^5.3.5",
+    "tippy.js": "^6.3.7"
   },
   "devDependencies": {
     "gh-pages": "^4.0.0"
