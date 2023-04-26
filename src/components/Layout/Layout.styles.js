@@ -11,6 +11,11 @@ const LayoutStyles = styled.main`
   img {
     image-rendering: pixelated;
     filter: grayscale(100%);
+    transition: all 0.4s;
+
+    &:hover {
+      filter: none;
+    }
   }
 
   .nes-container {

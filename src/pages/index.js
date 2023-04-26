@@ -3,7 +3,6 @@ import Tippy from "@tippyjs/react";
 import "tippy.js/dist/tippy.css"; // optional
 import Layout from "../components/Layout";
 import { skills, social, componentsLibraries } from "../data/skills";
-import FlappyBird from "../components/FlappyBird";
 
 const IndexPage = () => {
   return (
@@ -91,7 +90,6 @@ const IndexPage = () => {
           </div>
         </div>
       </Layout>
-      <FlappyBird />
     </>
   );
 };

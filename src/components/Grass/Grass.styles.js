@@ -2,9 +2,10 @@ import styled from "styled-components";
 
 const GrassStyles = styled.div`
   position: absolute;
-  bottom: 26px;
+  bottom: 24px;
   display: flex;
   justify-content: space-between;
+  align-items: stretch;
   width: 100%;
   z-index: 1;
 
@@ -13,6 +14,7 @@ const GrassStyles = styled.div`
     height: 100px;
     background-color: #636363;
     border-radius: 50%;
+    flex-grow: 20;
   }
 
   div:nth-child(even) {
@@ -30,7 +32,7 @@ const GrassStyles = styled.div`
   }
 
   div:last-child {
-    border-radius: 37% 63% 0% 100% / 58% 30% 70% 42%;
+    border-radius: 46% 54% 0% 100% / 100% 0% 100% 0%;
   }
 `;
 

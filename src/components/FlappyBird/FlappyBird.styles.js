@@ -30,6 +30,10 @@ const FlappyBirdStyles = styled.div`
   height: 350px;
   overflow-x: hidden;
 
+  & > * {
+    user-select: none;
+  }
+
   .floor {
     position: absolute;
     bottom: 0;
